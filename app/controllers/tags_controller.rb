@@ -15,4 +15,6 @@ class TagsController < ApplicationController
     redirect_to "/tags"
   end
 
+
+
 end
