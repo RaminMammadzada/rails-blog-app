@@ -1,7 +1,7 @@
 class ArticlesController < ApplicationController
   include ArticlesHelper
 
-  before_action :require_login, except: [:show, :index]
+  before_action :require_login, except: %i[show index]
 
   def index
     @articles = Article.all
@@ -11,7 +11,6 @@ class ArticlesController < ApplicationController
     @article = Article.find(params[:id])
     @comment = Comment.new
     @comment.article_id = @article.id
-
   end
 
   def new
@@ -29,7 +28,7 @@ class ArticlesController < ApplicationController
     @article = Article.find(params[:id])
     @article.destroy
     flash.notice = "Article '#{@article.title}' Destroyed!"
-    redirect_to "/articles"
+    redirect_to '/articles'
   end
 
   def edit
