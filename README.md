@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Microverse School > Rails #2 > Blog App
+# Microverse School > Rails > #2 Blog App
 
 ![screenshot](./images_for_readme/screenshots.png)
 
