@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Microverse Rail Project #2 -> Blog App
+# Microverse School > Rails #2 > Blog App
 
 ![screenshot](./images_for_readme/screenshots.png)
 
@@ -18,7 +18,7 @@ In this project we created a simple blog system and learn the basics of Ruby on 
 ## Built With
 - Ruby on Rails
 
-## Liters
+## Linters
 - Rubocop
 - Stylelint
 
@@ -27,13 +27,13 @@ In this project we created a simple blog system and learn the basics of Ruby on 
 To get a local copy up and running follow these simple example steps.
 
 ### Install
-Besides the live demo link, you can run those functions in you own local environment. 
 In order to run, you need to install RUBY and Rails in your computer. For windows you can go to [Ruby installer](https://rubyinstaller.org/) and for MAC and LINUX you can go to [Ruby official site](https://www.ruby-lang.org/en/downloads/) for intructions on how to intall it.
+
 Then you can clone the project by typing ```git clone https://github.com/RaminMammadzada/rails-blog-app```
 
-### Run game
-Type ```bundle install``` in the root file of the project. 
-Type ```rails s``` in the root file of the project. 
+### Run app
+- Type ```bundle install``` in the root file of the project. 
+- Type ```rails s``` in the root file of the project. 
 
 ## Authors
 
